@@ -1,0 +1,36 @@
+body {
+    margin: 60px;
+}
+.container {
+    width: 800px;
+    font-size: 0;
+}
+.box {
+    width: 50%;
+    display: inline-block;
+    height: 200px;
+    border: solid 1px black;
+    font-size: 0;
+}
+.green_box {
+    background-color: green;
+}
+.blue_box {
+    background-color: blue;
+}
+.box2 {
+    width: 33.3%;
+    display: inline-block;
+    height: 300px;
+    border: solid 1px black;
+    font-size: 0;
+}
+.gray_box {
+    background-color: #808080;
+}
+.black_box {
+    background-color: #000000;
+}
+.yellow_box {
+    background-color: #ffa500;
+}
