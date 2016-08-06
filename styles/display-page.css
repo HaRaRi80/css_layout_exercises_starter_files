@@ -24,6 +24,7 @@ body {
     height: 300px;
     border: solid 1px black;
     font-size: 0;
+    font-style:
 }
 .gray_box {
     background-color: #808080;
@@ -32,5 +33,5 @@ body {
     background-color: #000000;
 }
 .yellow_box {
-    background-color: #ffa500;
+    background-color: #fff;
 }
