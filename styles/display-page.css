@@ -1,8 +1,8 @@
-body {
-    margin: 60px;
-}
-.container {
+.color_blocks {
+    margin-top: 90px;
     width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 0;
 }
 .box {
@@ -10,7 +10,6 @@ body {
     display: inline-block;
     height: 200px;
     border: solid 1px black;
-    font-size: 0;
 }
 .green_box {
     background-color: green;
@@ -23,7 +22,6 @@ body {
     display: inline-block;
     height: 300px;
     border: solid 1px black;
-    font-size: 0;
 }
 .gray_box {
     background-color: #808080;
