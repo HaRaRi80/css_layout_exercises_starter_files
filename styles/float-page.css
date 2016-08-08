@@ -10,3 +10,23 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
+p {
+  margin-top: 20px;
+  clear: left;
+}
+
+.img_article {
+  width:300px;
+  heght:300px;
+}
+
+.nebula1 {
+      float: left;
+      padding: 15px 15px 15px 0;
+}
+
+.nebula2 {
+    float: right;
+    padding: 15px 0px 15px 15px;
+}
