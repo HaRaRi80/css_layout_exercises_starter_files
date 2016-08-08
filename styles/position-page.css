@@ -1,37 +1,16 @@
-img.bg {
-  /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
-  img.bg {
-    left: 50%;
-    margin-left: -512px;   /* 50% */
-  }
-}
-
 body {
-	line-height: 1;
-  }
+  background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
+}
 
-  #bg {
+#bg {
     position: fixed;
     top: -50%;
     left: -50%;
     width: 200%;
     height: 200%;
-  }
-  #bg img {
+}
+#bg img {
     position: absolute;
     top: 0;
     left: 0;
@@ -40,15 +19,13 @@ body {
     margin: auto;
     min-width: 50%;
     min-height: 50%;
-  }
-
+}
 nav {
     width: 100%;
     background-color: #808080;
     height: 100px;
     position: fixed;
-    }
-
+}
 nav img {
     width: 80px;
     height: 80px;
@@ -59,87 +36,44 @@ nav img {
     top: 10px;
 }
 ul {
-margin-left: 200px;
-margin-top: 40px;
-list-style: none;
+    margin-left: 200px;
+    margin-top: 40px;
+    list-style: none;
 }
-
-
 ul li {
     display: inline-block;
 }
-
 nav li::after {
-  content: "|";
-  margin-left: 5px;
+    content: "|";
+    margin-left: 5px;
 }
-
 ul li a {
-font-family: arial;
+    font-family: arial;
 }
-
-/*.animals {
-  width:200px;
-  height: 200px;
-  }
-
-.cat {
-  position: relative;
-  top:-130px;
-  left: -120px;
-}
-
-.dog {
-  width:200px;
-  height: 200px;
-  position: relative;
-  top: -60px;
-  left:470px;
-  }
-
-.dotted_box {
-  width: 600px;
-  height:300px;
-  border: dotted green 10px;
-  position: absolute;
-  left:0px;
-  right:0px;
-  top: 100px;
-  bottom: 0px;
-  margin:auto;
-  font-size: 0px;
-}
-*/
-
-
 .animals {
-  width:200px;
-  height: 200px;
-  }
-
-.cat {
-  position: relative;
-  top:-130px;
-  left: -120px;
+    width: 200px;
+    height: 200px;
 }
-
+.cat {
+    position: relative;
+    top: -130px;
+    left: -120px;
+}
 .dog {
-  width:200px;
-  height: 200px;
-  position: relative;
-  top: -60px;
-  left:470px;
-  }
-
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -60px;
+    left: 470px;
+}
 .dotted_box {
-  width: 600px;
-  height:300px;
-  border: dotted green 10px;
-  position: relative;
-  left:0px;
-  right:0px;
-  top: 300px;
-  bottom: 0px;
-  margin:auto;
-
+    width: 600px;
+    height: 300px;
+    border: dotted green 10px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 300px;
+    bottom: 0px;
+    margin: auto;
 }
